@@ -26,25 +26,22 @@ name, seal or logo to suggest endorsement.
 | | |
 | --- | --- |
 | Starting point | EPAUS9rT, the US EPA's 9-region database for the TIMES model generator, developed by the EPA Office of Research and Development (ORD) |
-| EPAUS9rT version | recorded here with the first import of model files |
+| EPAUS9rT version | EPAUS9rT_v20.4, published by EPA ORD on data.gov ([DOI 10.23719/1528539](https://doi.org/10.23719/1528539)); the archive's SHA-256 is recorded with its import |
 | Status of the starting point | US EPA data are in the US public domain by default, "unless otherwise specified" ([EPA data licence](https://pasteur.epa.gov/license/sciencehub-license.html)) |
 | Redevelopment | ESMA Ltd, from 2026 |
 
-The most recent public release of EPAUS9rT that we know of is
-EPAUS9rT_v20.4, published by EPA ORD on data.gov
-([DOI 10.23719/1528539](https://doi.org/10.23719/1528539)) with
-Zalesak, Kittner, Loughlin and Kaplanakman (2024), *Environmental Research:
-Energy* 1: 045018 ([DOI 10.1088/2753-3751/ad958b](https://doi.org/10.1088/2753-3751/ad958b)).
-The version OTUS9r starts from will be stated in the table above.
+EPAUS9rT_v20.4 was released with Zalesak, Kittner, Loughlin and Kaplanakman
+(2024), *Environmental Research: Energy* 1: 045018
+([DOI 10.1088/2753-3751/ad958b](https://doi.org/10.1088/2753-3751/ad958b)).
 
 How provenance is kept in this repository:
 
 1. **The original first.** The first model commit holds the EPAUS9rT files
    exactly as released by the US EPA, unchanged. The commit message names
    the release and gives the SHA-256 checksum of the source archive, and the
-   commit is tagged `epaus9rt-<version>`.
+   commit is tagged `epaus9rt-v20.4`.
 2. **ESMA's changes after it.** Every change ESMA makes follows as later
-   commits, so `git diff epaus9rt-<version>` shows exactly how OTUS9r
+   commits, so `git diff epaus9rt-v20.4` shows exactly how OTUS9r
    differs from the US EPA's original.
 3. **GAMS-ready files with their origin.** Files exported from the Veda
    workbooks for GAMS are kept in `dd/<scenario>/`. `dd/README.md` records
