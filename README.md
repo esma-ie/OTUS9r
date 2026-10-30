@@ -5,8 +5,9 @@ regions, for the IEA-ETSAP TIMES model generator. It is developed and
 maintained by Energy Systems Modelling Analytics Ltd (ESMA), Galway,
 Ireland, and published under an open licence (CC BY-SA 4.0).
 
-> **Status: under redevelopment.** No model files are published here yet.
-> The provenance steps below describe how they will be added.
+> **Status: under redevelopment.** This repository holds the US EPA's
+> EPAUS9rT_v20.4 as released (tag `epaus9rt-v20.4`) and its GAMS-ready
+> export (`dd/`). ESMA's redevelopment follows as later commits.
 
 ## Not a US EPA model
 
@@ -39,7 +40,12 @@ How provenance is kept in this repository:
 1. **The original first.** The first model commit holds the EPAUS9rT files
    exactly as released by the US EPA, unchanged. The commit message names
    the release and gives the SHA-256 checksum of the source archive, and the
-   commit is tagged `epaus9rt-v20.4`.
+   commit is tagged `epaus9rt-v20.4`. The import leaves out the archive's
+   `Exported_files/` folder: 13 CSV result exports of the study the release
+   accompanies (1.7 GB; nine are larger than GitHub's 100 MB file limit).
+   They are outputs, not model inputs, and stay in the EPA archive; the
+   import commit lists their names, sizes and SHA-256 checksums. Workbook
+   properties and external links are as the US EPA released them.
 2. **ESMA's changes after it.** Every change ESMA makes follows as later
    commits, so `git diff epaus9rt-v20.4` shows exactly how OTUS9r
    differs from the US EPA's original.
