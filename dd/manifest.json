@@ -1,0 +1,241 @@
+{
+ "from": "C:\\claude\\TIMESjlTests (Veda export, checked 28 Oct 2026, _inventory)",
+ "imported": "2026-10-29",
+ "layout": "dd/<scenario>/<scenario>.run + *.dd",
+ "model": "OTUS9r",
+ "scenarios": {
+  "reference": {
+   "files": {
+    "2080upd.dd": {
+     "bytes": 4277,
+     "sha256": "a53268b789995c209a911f53829498d76043b80303f9cc18cd895dc35776112c"
+    },
+    "aqreg.dd": {
+     "bytes": 1682,
+     "sha256": "d13aefb1d4fd701aac95d9a857bcc9953cbe7d056cb487d9a9d964b1f695aaca"
+    },
+    "base.dd": {
+     "bytes": 42550960,
+     "sha256": "75eea612345b71c973086106f282a98d8dbbf1377f317b1fe3fa631405ab8009"
+    },
+    "baseextra-offeps.dd": {
+     "bytes": 49419,
+     "sha256": "3ca279922f74c9db808131d0dc5ab9ed2a2f7ef8ee922ae10e907014c03d5289"
+    },
+    "bevcharging.dd": {
+     "bytes": 67335,
+     "sha256": "01900fd2457fa4b4d825d833607750b1bc021205bb10cce1f4eed0f48a2d8449"
+    },
+    "coalplants-ret-and_lifeext.dd": {
+     "bytes": 75051,
+     "sha256": "a1157f7a1f2d12978fa470fa20ced6aeaee635b4d2abc842bfb4d4bf4f76be8c"
+    },
+    "cplex.opt": {
+     "bytes": 108,
+     "sha256": "f2545d9ae21cc8b71da49cf3e5516f9ead3abc0d50c0388825812f6a3ac43938"
+    },
+    "csapr-mats.dd": {
+     "bytes": 4817,
+     "sha256": "2bcf75cf58c33b6ecbf119eed8e0e88d623656a810f564ad796e4831971af98e"
+    },
+    "growthv2.dd": {
+     "bytes": 1853765,
+     "sha256": "25ddb8cf75a5d337be6ad1933b51399a6740708496d32f1ccf16062170aa536a"
+    },
+    "refemiupd-ts.dd": {
+     "bytes": 59684,
+     "sha256": "6f35d67711a0f37e34cdeff5eda6302ab85012db82b37c944e35d459d974f8b1"
+    },
+    "reference.run": {
+     "bytes": 2481,
+     "sha256": "9d974f3b7f3ba5600915de7fcb71e551562709a6a44308a555e88bd05e4bba31"
+    },
+    "reference_ts.dd": {
+     "bytes": 121,
+     "sha256": "77c307bad99e0ced3e579d3aab100912d0c634094c64c982c07f045425afc8a1"
+    },
+    "storage.dd": {
+     "bytes": 7358,
+     "sha256": "43a589ba93a42aaa8f620cadc3b50b5bb33cd7c3c7995ba2229e2cc2cd87bbdc"
+    },
+    "syssettings.dd": {
+     "bytes": 506788,
+     "sha256": "e08ad255b6185238d01941ac48651367db6eb3c3638fb4b6e2da9a23c1b9abfb"
+    },
+    "times2veda.vdd": {
+     "bytes": 4616,
+     "sha256": "91d653ee70ea4185999b30b2977d4a8eee61732d0f783029ef5898f2ff59f49f"
+    },
+    "tradeparams.dd": {
+     "bytes": 32571,
+     "sha256": "3053d2c8b3b05f107bc424d69e42ffac0ae763e2f9877b24c3ce9126676ce38e"
+    },
+    "trnco2-ts.dd": {
+     "bytes": 85260,
+     "sha256": "493ebbc350a6ee96a34702a3e28ee88e268e3ad5f75acf131325f4fba7247a51"
+    },
+    "uc-biofuels20.dd": {
+     "bytes": 66905,
+     "sha256": "1a818e1a5e103a9a3ae5076db256c3085ba370037defab22a74525ff76415005"
+    },
+    "uc-csapr-mats.dd": {
+     "bytes": 20581,
+     "sha256": "dd93969b0e50425df5ac47d9cf12c064ff801a3586b068fbc888fea4da830d25"
+    },
+    "uc-elc20.dd": {
+     "bytes": 451955,
+     "sha256": "07c823bb253669ce76347beed09d3a10587eb885800f17e97a36d867ba7ca868"
+    },
+    "uc-ind20.dd": {
+     "bytes": 2689324,
+     "sha256": "14233b1441a3abad7d3f200d850ae2e5ec2381c2dad7ddfdc5457546b9bc7c0f"
+    },
+    "uc-nonewnuc.dd": {
+     "bytes": 10108,
+     "sha256": "e24f61c17bb9fcbc88cf4745559428beab39dedfefcb38572679e444ee04c3bd"
+    },
+    "uc-rescom20.dd": {
+     "bytes": 593349,
+     "sha256": "6bf6758f7f12147ba5aabe0431039356f45af8f5de12952118c81b91dfd1cb3e"
+    },
+    "uc-rps20.dd": {
+     "bytes": 402088,
+     "sha256": "f64e46331e5e1c6ae49009d69c7a59dffff73f50e8e64113604564582a90e37f"
+    },
+    "uc_aqreg.dd": {
+     "bytes": 15476,
+     "sha256": "22345d3885b95107121fbd39ad1560f43dffa2035c43824c1c3b7dd1dd2716d7"
+    },
+    "uc_trnhdv20_az121921.dd": {
+     "bytes": 422429,
+     "sha256": "68c9698d651502777184ace3419e122db46ab771620258c0d0dfc4ffab7d1673"
+    },
+    "uc_trnldv20.dd": {
+     "bytes": 1432874,
+     "sha256": "87c3586aecd4d633389b48f3217d4eb2b57140f9e97f0d054a8c4b2c6b4cd047"
+    }
+   },
+   "n_dd": 24,
+   "run": "reference.run"
+  },
+  "tax1_wo_mou": {
+   "files": {
+    "2080upd.dd": {
+     "bytes": 4279,
+     "sha256": "7ae742c0dda85892f728e8068c7a68888f8a03f1385bf26925466252ed1cbe05"
+    },
+    "aqreg.dd": {
+     "bytes": 1684,
+     "sha256": "0c32ed3718414985151b731fd877a443fed618212e5a6fe9639f47f1405cec8e"
+    },
+    "base.dd": {
+     "bytes": 42550962,
+     "sha256": "d4a4470c34e45bc5bcee4f951b72843fb94221d0469d18f5ba4d5d7b728b1bc6"
+    },
+    "baseextra-offeps.dd": {
+     "bytes": 49421,
+     "sha256": "c483b0cccd1739f7d50985a183c860ca12e78aa05c634a5870d3c68cf223b272"
+    },
+    "bevcharging.dd": {
+     "bytes": 67337,
+     "sha256": "38bd5370a71ee7eaccd57851e8c0ed54e6e9331c87c474ca5ef4d31b5349bd89"
+    },
+    "co2_tax_az020122.dd": {
+     "bytes": 1373,
+     "sha256": "35aa5c1c8c966ef7257a18b30806630b4f5c558279861a9ffaef439ab9d1eaef"
+    },
+    "coalplants-ret-and_lifeext.dd": {
+     "bytes": 75053,
+     "sha256": "41bb343b18d404fdc7cc4f20bb915b083dcd35a8f65cbbf32cb9d113f1714de3"
+    },
+    "cplex.opt": {
+     "bytes": 98,
+     "sha256": "6cd10145df80d3844d4f7f368aed74768d6e5e10d97f3897a9e983effdfe99ca"
+    },
+    "csapr-mats.dd": {
+     "bytes": 4819,
+     "sha256": "307dcfb2133b5a241d3073abb95e5a63e9aeae8b15749dd53f1402ae6245f2da"
+    },
+    "growthv2.dd": {
+     "bytes": 1853767,
+     "sha256": "0a22272cd443fc31bcb2cccda8a3c864972732cc26f7aceecf2ef19e8538b84c"
+    },
+    "refemiupd-ts.dd": {
+     "bytes": 59686,
+     "sha256": "56e985cabe2e27ad78ac57b42d4688cac658914c0961230226ec9233ff400864"
+    },
+    "storage.dd": {
+     "bytes": 7360,
+     "sha256": "69017a9519e03956f4e26108289b880d741c76ca976efc1a8ac9e312a9d6b98f"
+    },
+    "syssettings.dd": {
+     "bytes": 506790,
+     "sha256": "e163902d96b26bd2bbfd4ff71a322eb2be33faf8c17cca5422504cdfe6d8b05e"
+    },
+    "tax1_wo_mou.run": {
+     "bytes": 2528,
+     "sha256": "34bfbdad3291da3112ceebd381bf9f11a7b23cd48bf5f65b00d4763eb185ddb5"
+    },
+    "tax1_wo_mou_ts.dd": {
+     "bytes": 121,
+     "sha256": "77c307bad99e0ced3e579d3aab100912d0c634094c64c982c07f045425afc8a1"
+    },
+    "times2veda.vdd": {
+     "bytes": 4616,
+     "sha256": "91d653ee70ea4185999b30b2977d4a8eee61732d0f783029ef5898f2ff59f49f"
+    },
+    "tradeparams.dd": {
+     "bytes": 32573,
+     "sha256": "38e89c38f3b14889558b11e5039c6fc05d88726d827b22dcd3c3fbb866f63072"
+    },
+    "trnco2-ts.dd": {
+     "bytes": 85262,
+     "sha256": "58e9b3a49b6f9c6ada0f142cfc52585712ff4ab54e86a0bc6f23f0d27a19f073"
+    },
+    "uc-biofuels20.dd": {
+     "bytes": 66907,
+     "sha256": "31e8cfb9c77a2bd2f921278e3a2fc1f11cc1275059655eaaa03961afca224508"
+    },
+    "uc-csapr-mats.dd": {
+     "bytes": 20583,
+     "sha256": "17f015016d3be3c0fd77d6bf48185dc3dd55c0a2f8d2685f1da4f017c517393d"
+    },
+    "uc-elc20.dd": {
+     "bytes": 451957,
+     "sha256": "44fb44c6913d2acf9e0636c34e61debb7ef456f7db4cede7a5c57fbc541c0520"
+    },
+    "uc-ind20.dd": {
+     "bytes": 2689326,
+     "sha256": "1c4c7aac499805d1f50b274bb5367b5bba18dce8c1e0c9e127ee78af1d6339e7"
+    },
+    "uc-nonewnuc.dd": {
+     "bytes": 10110,
+     "sha256": "da444314559ba01b719a7689a45db7fbc7b826060d155afa3c50f1bf0ae11a63"
+    },
+    "uc-rescom20.dd": {
+     "bytes": 593351,
+     "sha256": "8e3a5dbb5f5cf75147bc1162a90c86e9bb183a45a91bb4f1c69526c9dbf85837"
+    },
+    "uc-rps20.dd": {
+     "bytes": 402090,
+     "sha256": "12f25b5751e6237a59735ade08b9673d25f5ad4cfc896ed1083875b2fd2f6d11"
+    },
+    "uc_aqreg.dd": {
+     "bytes": 15478,
+     "sha256": "bcfc0f3d8f27a2e7da1d1691e2f9ef8f1640b490bd69efe070b4b858041ed91b"
+    },
+    "uc_trnhdv20_az121921.dd": {
+     "bytes": 422431,
+     "sha256": "5fc36f61b7af3c423f9d97eef2f551d03c59745943a53aa2a2d746ebc9d8823f"
+    },
+    "uc_trnldv20.dd": {
+     "bytes": 1432876,
+     "sha256": "9d1a6a29fa5cd179527895b52107b70b15ab88ca459bb20fd2af99be71220641"
+    }
+   },
+   "n_dd": 25,
+   "run": "tax1_wo_mou.run"
+  }
+ },
+ "source": "esma-ie/OTUS9r (CC BY-SA 4.0; EPA EPAUS9rT_v20.4 origin, US public domain)"
+}
